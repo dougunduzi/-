@@ -13,7 +13,6 @@ try :
         listener = py.mouse.Listener(on_click=on_click)
         entry = input("请输入轰炸内容:")
         times = int(input("请输入轰炸次数:"))
-        f = 1/float(input("请输入轰炸频率:"))
         click = 0
         listener.start()
 
@@ -44,7 +43,6 @@ except TypeError :
         listener = py.mouse.Listener(on_click=on_click)
         entry = input("请输入轰炸内容:")
         times = int(input("请输入轰炸次数:"))
-        f = 1 / float(input("请输入轰炸频率:"))
         listener.start()
 
         while 1:
